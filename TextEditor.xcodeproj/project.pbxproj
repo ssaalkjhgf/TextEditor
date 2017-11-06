@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F562F8661FA6CB7E00974B19 /* ChunkNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F562F8641FA6CB7E00974B19 /* ChunkNode.cpp */; };
+		F562F8691FA6CBD200974B19 /* ChunkList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F562F8671FA6CBD200974B19 /* ChunkList.cpp */; };
 		F5BFA69A1F9D88D0006ADD94 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5BFA6991F9D88D0006ADD94 /* main.cpp */; };
+		F5BFA6A21F9D8B6E006ADD94 /* TextEditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5BFA6A01F9D8B6E006ADD94 /* TextEditor.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F562F8641FA6CB7E00974B19 /* ChunkNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ChunkNode.cpp; sourceTree = "<group>"; };
+		F562F8651FA6CB7E00974B19 /* ChunkNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChunkNode.h; sourceTree = "<group>"; };
+		F562F8671FA6CBD200974B19 /* ChunkList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ChunkList.cpp; sourceTree = "<group>"; };
+		F562F8681FA6CBD200974B19 /* ChunkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChunkList.h; sourceTree = "<group>"; };
 		F5BFA6961F9D88D0006ADD94 /* TextEditor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TextEditor; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5BFA6991F9D88D0006ADD94 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F5BFA6A01F9D8B6E006ADD94 /* TextEditor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TextEditor.cpp; sourceTree = "<group>"; };
+		F5BFA6A11F9D8B6E006ADD94 /* TextEditor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; path = TextEditor.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				F5BFA6991F9D88D0006ADD94 /* main.cpp */,
+				F5BFA6A01F9D8B6E006ADD94 /* TextEditor.cpp */,
+				F562F8671FA6CBD200974B19 /* ChunkList.cpp */,
+				F562F8681FA6CBD200974B19 /* ChunkList.h */,
+				F562F8641FA6CB7E00974B19 /* ChunkNode.cpp */,
+				F562F8651FA6CB7E00974B19 /* ChunkNode.h */,
+				F5BFA6A11F9D8B6E006ADD94 /* TextEditor.h */,
 			);
 			path = TextEditor;
 			sourceTree = "<group>";
@@ -120,6 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5BFA69A1F9D88D0006ADD94 /* main.cpp in Sources */,
+				F5BFA6A21F9D8B6E006ADD94 /* TextEditor.cpp in Sources */,
+				F562F8661FA6CB7E00974B19 /* ChunkNode.cpp in Sources */,
+				F562F8691FA6CBD200974B19 /* ChunkList.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
